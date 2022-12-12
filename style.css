@@ -1,65 +1,83 @@
 * {
-    margin: 0;
     padding: 0;
+    margin: 0;
+    background-color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-
-
 header {
-    height: 10vh;
-    font-size: 2em;
+    color: rgb(84, 84, 187);
     text-align: center;
-    background-color: aquamarine;
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-shadow: 4px 4px 8px rgb(103, 138, 150);
 }
 
 .main {
-    text-align: center;
-}
-
-#container {
-    background-color: bisque;
-    overflow: hidden;
-    overflow-x: scroll;
     display: flex;
-    height: 80vh;
-}
-
-h1 {
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-}
-
-.scrol-area {
-    background-color: blue;
-    color: white;
-    font-size: 1em;
-    display: inline-flex;
     width: 100%;
+    height: 90vh;
 }
 
-.scrolling {
-    display: inline-flex;
+.course-title {
+    width: 15vw;
+    height: 80vh;
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    font-size: 3em;
+    font-family: fantasy;
+    color: rgba(221, 46, 46, 0.781);
+    font-weight: 600;
+    box-shadow: 2px 0 10px 0.2px lightblue;
+    text-shadow: 4px 4px 4px #aaa;
+}
+
+.parent-slider {
+    width: 85vw;
+    height: 90vh;
+    margin: 0.5rem;
+    display: flex;
     overflow: hidden;
     overflow-x: scroll;
-    white-space: nowrap;
+
 }
 
-.item {
-    margin: 1em;
-    padding: 0.5em;
-    width: 99%;
+.chapter {
+    display: flex;
+    flex-direction: row;
+    min-width: 99%;
+    height: 85vh;
+    margin: 0.2rem;
+    overflow: hidden;
+    overflow-x: scroll;
 }
 
-.item>img {
-    height: 60vh;
+.paragraph {
+    color: rgb(109, 107, 107);
+    text-align: start;
+    min-width: 40vw;
+    font-size: 1.2em;
+    margin: 1rem;
+    padding: 1rem;
+    box-shadow: 0px 0px 10px lightblue;
+    border-radius: 10px;
+}
+
+h1,
+h2 {
+    margin: 1rem;
+    color: lightgreen;
 }
 
 footer {
-    position: absolute;
+    position: relative;
     bottom: 0;
     width: 100%;
-    text-align: center;
-    background-color: black;
     color: white;
+    background-color: black;
+    text-align: center;
 }
