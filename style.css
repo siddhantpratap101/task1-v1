@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header {
+    height: 10vh;
+    font-size: 2em;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+.main {
+    text-align: center;
+}
+
+#container {
+    background-color: bisque;
+    overflow: hidden;
+    overflow-x: scroll;
+    display: flex;
+    height: 80vh;
+}
+
+h1 {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.scrol-area {
+    background-color: blue;
+    color: white;
+    font-size: 1em;
+    display: inline-flex;
+    width: 100%;
+}
+
+.scrolling {
+    display: inline-flex;
+    overflow: hidden;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+
+.item {
+    margin: 1em;
+    padding: 0.5em;
+    width: 99%;
+}
+
+.item>img {
+    height: 60vh;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
